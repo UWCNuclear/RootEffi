@@ -1,7 +1,7 @@
-# RootEffi
+# RootEffi.C
 Absolute or relative detection efficiency calibration of germanium detectors in ROOT
 
-Add in your own data and ,for an absolute efficiency curve, your calibration source info!
+Add in your own data and, for an absolute efficiency curve, your calibration source(s) info!
 
 Run in the command line with: grsisort -l RootEffi.C
 
