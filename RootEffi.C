@@ -34,7 +34,7 @@ double coactivity = cooriginal*0.5^(copastime/cohalflife);
 
 // Calculating the number of 60Co decays during the time of the data collection
 double colivetime = 2085.; // The live time is the difference between the run time and the dead time (in seconds). If you don't know the dead time, use the run time :-)
-double coactivity = cooriginal*TMath::Power(0.5,(copastime/cohalflife));
+double codecays = coactivity*colivetime;;
 */
 
 
