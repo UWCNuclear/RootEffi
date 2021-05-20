@@ -1,6 +1,6 @@
 # RootEffi.C
 
-**Link to RootEffi video: https://www.youtube.com/watch?v=22VtIhzPB1o&t=3070s
+**Link to RootEffi video:** https://www.youtube.com/watch?v=22VtIhzPB1o&t=3070s
 
 Absolute or relative detection efficiency calibration of germanium detectors in ROOT
 
