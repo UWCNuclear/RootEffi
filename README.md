@@ -27,6 +27,8 @@ To run RootEffi, type in the command line:
 or:
 
     grsisort -l
+    
+and then the following line in the GRSISort terminal:
 
     .x RootEffi.C
 
