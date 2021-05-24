@@ -1,8 +1,6 @@
-# RootEffi.C
+# Detection efficiency calibration of germanium detectors in ROOT
 
 **Link to RootEffi video:** https://www.youtube.com/watch?v=22VtIhzPB1o&t=3070s
-
-Absolute or relative detection efficiency calibration of germanium detectors in ROOT
 
 The script includes the instructions on how to run it in ROOT/GRSISort.
 
@@ -12,19 +10,31 @@ It also includes several (optional) formatting commands with which you should fa
 
 The goal of this script is to get an efficiency fit for your data set, and also to get familiar with ROOT scripts/macros.
 
-To run RootEffi, you type in the command line:
+# Download this repository
 
-grsisort -l RootEffi.C
+To install git, paste in your terminal:
+
+    sudo apt-get install git
+
+To download RootEffi, paste:
+
+    git clone https://github.com/UWCNuclear/RootEffi.git"
+
+To run RootEffi, type in the command line:
+
+     grsisort -l RootEffi.C
 
 or:
 
-grsisort -l
+    grsisort -l
 
-.x RootEffi.C
+    .x RootEffi.C
 
 Also, the above 'grsisort' can be replaced with 'root' - and it should work just fine!
 
 Also, it seems that this script prefers ROOT6.
+
+# Using this repository
 
 To use RootEffi, you need the area (number of counts) of the most intense peaks from your calibration source(s), and the uncertainty on the area of those peaks.
 
@@ -36,7 +46,7 @@ Whenever you edit a script, you should save it and close ROOT/GRSISort to run it
 
 RootEffi.C is set up to do an absolute or relative detection efficiency fit using the germanium efficiency equation from Knoll.
 
-The Radware equation is also in there, but it hasn't been thoroughly tested.
+The Radware equation is also in there, but it hasn't been tested.
 
 Ran as is, RootEffi does a relative efficiency curve using the Knoll equation.
 
