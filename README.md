@@ -10,7 +10,7 @@ It also includes several (optional) formatting commands with which you should fa
 
 The goal of this script is to get an efficiency fit for your data set, and also to get familiar with ROOT scripts/macros.
 
-# Download this repository
+# Download RootEffi
 
 To install git, paste in your terminal:
 
@@ -34,7 +34,7 @@ Also, the above 'grsisort' can be replaced with 'root' - and it should work just
 
 Also, it seems that this script prefers ROOT6.
 
-# Using this repository
+# Using RootEffi
 
 To use RootEffi, you need the area (number of counts) of the most intense peaks from your calibration source(s), and the uncertainty on the area of those peaks.
 
