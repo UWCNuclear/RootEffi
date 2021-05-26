@@ -1,6 +1,17 @@
+# Links to practical videos
+
+*Practical #1: How to install the Ubuntu subsystem for Windows 10*  https://www.youtube.com/watch?v=22VtIhzPB1o
+
+*Timestamp for quick RootEffi demo*  https://www.youtube.com/watch?v=22VtIhzPB1o&t=3070s
+
+*Practical #2: Plotting data with Python and xmgrace*  https://www.youtube.com/watch?v=KrcyFavMHiY
+
+*Practical #3: Detector Efficiency and Peak Fitting*  
+
+
 # Detection efficiency calibration of germanium detectors in ROOT
 
-**Link to RootEffi video:** https://www.youtube.com/watch?v=22VtIhzPB1o&t=3070s
+**Link to RootEffi video:** 
 
 The script includes the instructions on how to run it in ROOT/GRSISort.
 
