@@ -29,7 +29,7 @@ To install git, paste in your terminal:
 
 To download RootEffi, paste:
 
-    git clone https://github.com/UWCNuclear/RootEffi.git"
+    git clone https://github.com/UWCNuclear/RootEffi.git
 
 To run RootEffi, type in the command line:
 
