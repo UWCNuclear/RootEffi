@@ -117,7 +117,7 @@ for(int i =0;i<=n;i++){
     gr->GetXaxis()->SetLabelSize(0.04);
 
 //    gr->GetYaxis()->SetTitle("Absolute Efficiency [%]");    
-    gr->GetYaxis()->SetTitle("Relative Efficiency [%]");
+    gr->GetYaxis()->SetTitle("Arbitrary Efficiency [%]");
 //    gr->GetYaxis()->SetRangeUser(1,2000);
     gr->GetYaxis()->CenterTitle();
     gr->GetYaxis()->SetTitleOffset(1.1);
