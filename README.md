@@ -6,7 +6,7 @@
 
 *Practical #2: Plotting data with Python and xmgrace*  https://www.youtube.com/watch?v=KrcyFavMHiY
 
-*Practical #3: Detector Efficiency and Peak Fitting*  
+*Practical #3: Detector Efficiency and Peak Fitting*  https://www.youtube.com/watch?v=OG-s4FhOMIk
 
 
 # Detection efficiency calibration of germanium detectors in ROOT
