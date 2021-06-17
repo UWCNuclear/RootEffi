@@ -155,7 +155,7 @@ for(int i =0;i<=n;i++){
 // Knoll efficiency equation
 // Setting up the equation to fit
 // In ROOT, log(x) is natural log and log10(x) is log_10(x)   
- TF1 *effi_fit = new TF1("effi","10**([0] + [1]*log(x) + [2]*log(x)*log(x) + [3]*(x**(-2)))",0,3500);
+ TF1 *effi_fit = new TF1("effi","10**([0] + [1]*log10(x) + [2]*log10(x)*log10(x) + [3]*(x**(-2)))",0,3500);
 
 // Setting up names for the parameters
     effi_fit->SetParName(0,"p0");
