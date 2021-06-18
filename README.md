@@ -13,8 +13,6 @@
 
 # Detection efficiency calibration of germanium detectors in ROOT
 
-**Link to RootEffi video:** 
-
 The script includes the instructions on how to run it in ROOT/GRSISort.
 
 It has many commented lines to walk you through the script.
