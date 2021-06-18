@@ -131,7 +131,7 @@ for(int i =0;i<=n;i++){
 /*
 // Radware efficiency equation
 // Setting up the equation to fit
- TF1 *effi_fit = new TF1("effi","exp( (([0]+[1]*log(x/100)+[2]*log(x/100)*log(x/100))**(-[6]) + ([3]+[4]*log(x/1000000)+[5]*log(x/1000000)*log(x/1000000))**(-[6]))**(-1/[6]) )",0,3500);
+ TF1 *effi_fit = new TF1("effi","exp( (([0]+[1]*log(x/1000)+[2]*log(x/1000)*log(x/1000))**(-[6]) + ([3]+[4]*log(x/1000000)+[5]*log(x/1000000)*log(x/1000000))**(-[6]))**(-1/[6]) )",0,3500);
 
 // Setting up names for the parameters
     effi_fit->SetParName(0,"A");
