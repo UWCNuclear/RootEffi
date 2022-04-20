@@ -21,7 +21,7 @@ It also includes several (optional) formatting commands with which you should fa
 
 The goal of this script is to get an efficiency fit for your data set, and also to get familiar with ROOT scripts/macros.
 
-# Download RootEffi
+# Downloading RootEffi
 
 If you haven't installed git already, paste in your terminal:
 
