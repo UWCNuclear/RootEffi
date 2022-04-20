@@ -31,6 +31,14 @@ To download RootEffi, paste:
 
     git clone https://github.com/UWCNuclear/RootEffi.git
 
+# Using RootEffi
+
+To use RootEffi, you need the area (number of counts) of the most intense peaks from your calibration source(s), and the uncertainty on the area of those peaks.
+
+For an absolute efficiency calibration, you will also need the original activity of the calibration source(s), the date of the calibration run(s), and the length of calibration run(s) (in seconds).
+
+Then, you have to edit these values in RootEffi.C.
+
 To edit the RootEffi script, go to your RootEffi directory (cd RootEffi) and paste:
 
     gedit RootEffi.C &
@@ -53,13 +61,7 @@ Also, the above 'grsisort' can be replaced with 'root' - and it should work just
 
 Also, it seems that this script prefers ROOT6.
 
-# Using RootEffi
-
-To use RootEffi, you need the area (number of counts) of the most intense peaks from your calibration source(s), and the uncertainty on the area of those peaks.
-
-For an absolute efficiency calibration, you will also need the original activity of the calibration source(s), the date of the calibration run(s), and the length of calibration run(s) (in seconds).
-
-Then, you have to edit these values in RootEffi.C.
+# Notes on RootEffi
 
 Whenever you edit a script, you should save it and close ROOT/GRSISort to run it again.
 
