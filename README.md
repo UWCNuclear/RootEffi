@@ -31,9 +31,11 @@ To download RootEffi, paste:
 
     git clone https://github.com/UWCNuclear/RootEffi.git
 
-To edit the RootEffi script, paste:
+To edit the RootEffi script, go to your RootEffi directory (cd RootEffi) and paste:
 
-    gedit RootEffi.C
+    gedit RootEffi.C &
+
+The **&** at the end will let you keep control of the terminal so that you can fit peaks in GRSISort and have gedit open at the same time :-)
 
 To run RootEffi, type in the command line:
 
