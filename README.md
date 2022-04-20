@@ -23,13 +23,17 @@ The goal of this script is to get an efficiency fit for your data set, and also 
 
 # Download RootEffi
 
-To install git, paste in your terminal:
+If you haven't installed git already, paste in your terminal:
 
     sudo apt-get install git
 
 To download RootEffi, paste:
 
     git clone https://github.com/UWCNuclear/RootEffi.git
+
+To edit the RootEffi script, paste:
+
+    gedit RootEffi.C
 
 To run RootEffi, type in the command line:
 
