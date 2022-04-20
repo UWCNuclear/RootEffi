@@ -45,6 +45,8 @@ To edit the RootEffi script, go to your RootEffi directory (cd RootEffi) and pas
 
 The **&** at the end will let you keep control of the terminal so that you can fit peaks in GRSISort and have gedit open at the same time :-)
 
+Whenever you edit a script, you should save it and close ROOT/GRSISort to run it again.
+
 To run RootEffi, type in the command line:
 
      grsisort -l RootEffi.C
@@ -57,13 +59,9 @@ and then the following line in the GRSISort terminal:
 
     .x RootEffi.C
 
-Also, the above 'grsisort' can be replaced with 'root' - and it should work just fine!
-
-Also, it seems that this script prefers ROOT6.
+And you are ready to use your new efficiency calibration!
 
 # Notes on RootEffi
-
-Whenever you edit a script, you should save it and close ROOT/GRSISort to run it again.
 
 RootEffi.C is set up to do an absolute or relative detection efficiency fit using the germanium efficiency equation from Knoll.
 
@@ -75,4 +73,6 @@ To do an absolute efficiency fit, you have to comment out (//  ...) the absolute
 
 To use the Radware equation, you have to comment out the Knoll lines (/*  ...  */) and uncomment the Radware lines.
 
-And you are ready to use your new efficiency calibration!
+Also, the above 'grsisort' can be replaced with 'root' - and it will work just fine!
+
+Also, it seems that this script prefers ROOT6.
